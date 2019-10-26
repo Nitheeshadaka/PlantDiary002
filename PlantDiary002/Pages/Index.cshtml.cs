@@ -11,7 +11,10 @@ namespace PlantDiary002.Pages
     {
         public void OnGet()
         {
-
+            String myName = "Nitheesha Daka";
+            int age = 25;
+            ViewData["MyName"] = myName;
+            ViewData["age"] = age;
         }
     }
 }
